@@ -41,7 +41,7 @@ PORT   STATE SERVICE VERSION
 
 Not having much to go on at this point I start with the website:
 
-![](images/picklerick1.png)
+![](/CTF/images/picklerick1.png)
 
 It seems Rick needs our help finding 3 secret ingredients or he'll be stuck as a pickle forever, and we can't have that!
 
@@ -76,13 +76,13 @@ Looking at robots.txt shows only a short string of text:
 
 The denied.php and login.php files give you a login page. After logging in you are redirected to portal.php.
 
-![](images/picklerick2.png)
+![](/CTF/images/picklerick2.png)
 
 Given we have a username and a string of text from the robots.txt file let's try those as a login combo on the page.
 
 We're in! Of the menu bar options at the top it looks like only the Commands tab is useful to us:
 
-![](images/picklerick3.png)
+![](/CTF/images/picklerick3.png)
 
 Running the `ls` command displays a list of files so we are able to execute commands directly on the webserver via this interface:
 ```
@@ -200,7 +200,7 @@ root@ip-10-10-172-250:~# cat 3rd.txt
 
 And we now have all 3 ingredients allowing to get Rick out of the pickle he's in. Ok that was a terrible joke I admit.
 
-![](images/picklerick4.png)
+![](/CTF/images/picklerick4.png)
 
 Many thanks to **TryHackMe** for creating and hosting this fun Rick and Morty themed CTF. I had a blast going through it.
 
