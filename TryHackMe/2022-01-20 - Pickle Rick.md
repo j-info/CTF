@@ -198,7 +198,7 @@ root@ip-10-10-172-250:~# cat 3rd.txt
 3rd ingredients: <REDACTED>
 ```
 
-And we now have all 3 ingredients allowing to get Rick out of the pickle he's in. Ok that was a terrible joke I admit.
+And we now have all 3 ingredients allowing us to get Rick out of the pickle he's in. Ok that was a terrible joke I admit.
 
 ![](images/picklerick4.png)
 
