@@ -48,7 +48,7 @@ The scan only shows one result and navigating to it does not work.
 
 When navigating to the main website the following appears:
 
-![](TryHackMe/images/inclusion1.png)
+![](images/inclusion1.png)
 
 Clicking on the blue learn more button doesn't do anything, but if you click on the 3 view details buttons it gives you a description of the attacks.
 
@@ -146,11 +146,11 @@ It turns out we can use `socat` as root which is a tool similar to netcat.
 
 Let's check out [**https://gtfobins.github.io/**](https://gtfobins.github.io/) to see if there's an easy way to break out of that command to a root shell:
 
-![](TryHackMe/images/inclusion2.png)
+![](images/inclusion2.png)
 
 We can see there are several methods listed for socat. Here is the information on how to utilize this via sudo:
 
-![](TryHackMe/images/inclusion4.png)
+![](images/inclusion4.png)
 
 Running the `sudo socat stdin exec:/bin/sh` command:
 ```
@@ -196,7 +196,7 @@ http://10.10.132.179/article?name=../../../../root/root.txt
 
 We've now solved this CTF and have both flags!
 
- ![](TryHackMe/images/inclusion3.png)
+ ![](images/inclusion3.png)
 
 Many thanks to:
 - [**falconfeast**](https://tryhackme.com/p/falconfeast) for creating this CTF.
