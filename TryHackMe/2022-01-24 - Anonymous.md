@@ -341,9 +341,11 @@ And with a `cat root.txt` we have our final flag!
 # cat root.txt
 <REDACTED>
 ```
+<br>
 
 ![](images/anonymous1.png)
 
+<br>
 
 Many thanks to:
 - [Nameless0ne](https://tryhackme.com/p/Nameless0ne) for creating this CTF.
